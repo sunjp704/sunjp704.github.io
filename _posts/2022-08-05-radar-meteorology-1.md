@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Radar Meteorology 1"
-data: 2022-08-05 21:17:00 +8000
+date: 2022-08-05 21:17:00 +8000
 categories: radar meteorology
 ---
 
@@ -30,15 +30,19 @@ The transparency of the atmosphere to EM waves depends critically on the wavelen
 
 ### Scattering regimes
 
-Scatter can be defined as the re-radiation of the incident radiation of particles or objects called scatterers. Prtial reflections occur when EM waves propagating in the medium with refractive index $n_1$ meet another medium with refractive index $n_2$.
+Scatter can be defined as the re-radiation of the incident radiation of particles or objects called scatterers. Prtial reflections occur when EM waves propagating in the medium with refractive index $ n_1 $ meet another medium with refractive index $ n_2 $.
 
-In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~$10^{-10}$m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
+In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~$ 10^{-10} $m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
 
 #### Objects with sharp boundaries
 
 Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy *E* at wavelength $\lambda$ due to sccatering is given by
-$$\frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s$$
+$$
+\frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s
+$$
 
 For spherical scatterers of diameter D in a medium with unit refractive index, the volume scattering coefficient is given by
-$$\beta=\frac{\pi}{4}\int_{0}^{\infty}N(D)D^2\zeta_\mathrm{s}(n(\lambda),D,\lambda)\mathrm{d}D$$
+$$
+\beta=\frac{\pi}{4}\int_{0}^{\infty}N(D)D^2\zeta_\mathrm{s}(n(\lambda),D,\lambda)\mathrm{d}D
+$$
 where $N(D)$ is the number concentration of particles with diameter $D$ and $\zeta_\mathrm{s}(n(\lambda),D,\lambda)$ is the scattering efficiency factor , with $n(\lambda)$ being the complex refractive index of the scatterer.
