@@ -32,37 +32,48 @@ The transparency of the atmosphere to EM waves depends critically on the wavelen
 
 Scatter can be defined as the re-radiation of the incident radiation of particles or objects called scatterers. Prtial reflections occur when EM waves propagating in the medium with refractive index $n_1$ meet another medium with refractive index $n_2$.
 
-In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~$10^{-10}$m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
+In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~ $10^{-10}$ m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
 
 #### Objects with sharp boundaries
 
 Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy *E* at wavelength $\lambda$ due to sccatering is given by
+
 $$
 \frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s
 $$
 
 For spherical scatterers of diameter D in a medium with unit refractive index, the volume scattering coefficient is given by
+
 $$
 \beta=\frac{\pi}{4}\int_{0}^{\infty}N(D)D^2\xi_\mathrm{s}(n(\lambda),D,\lambda)\mathrm{d}D
 $$
-where $N(D)$ is the number concentration of particles with diameter $D$ and $\xi_\mathrm{s}(n(\lambda),D,\lambda)$ is the scattering efficiency factor , with $n(\lambda)$ being the complex refractive index of the scatterer. Scattering intensity is hence a function of the cross-sectional area of bodies on the path of the radar beam ($\int N(D)D^2\pi/4\mathrm dD$), and how efficiency these bodies scatters radiation given its size and refractive index.
+
+where $N(D)$ is the number concentration of particles with diameter $D$ and $\xi_\mathrm{s}(n(\lambda),D,\lambda)$ is the scattering efficiency factor , with $n(\lambda)$ being the complex refractive index of the scatterer. Scattering intensity is hence a function of the cross-sectional area of bodies on the path of the radar beam ( $\int N(D)D^2\pi/4\mathrm dD$ ), and how efficiency these bodies scatters radiation given its size and refractive index.
 
 Size parameter $\gamma$ (rario of circumference of the scatterer and the wavelength):
-$$\gamma=\frac{\pi D}{\lambda}$$
+
+$$
+\gamma=\frac{\pi D}{\lambda}
+$$
 
 For $|n(\lambda)\gamma|<1$ (scatterers much smaller than the wavelength, Rayleigh scattering),
+
 $$
 \xi_\mathrm{s}(n(\lambda),D,\lambda)=\frac{8}{3}\gamma^4\vert\frac{n^2(\lambda)-1}{n^2(\lambda)+2}\vert^2
 $$
+
 therefore,
+
 $$
 \beta=\frac{2\pi^5}{3\lambda^4}\vert\frac{n^2(\lambda)-1}{n^2(\lambda)+2}\vert^2\int_{0}^{\infty}N(D)D^6\mathrm{d}D
 $$
 
 Barring major changes in $n(\lambda)$, 
+
 $$
 \beta\propto\frac{D^6}{\lambda^4}
 $$
 
 >At visible wavelengths (blue),air molecules are much smaller than $\lambda$. Hence these molecules scatter shorter wavelengths (blue) much better than longer ones (red), leading to the blue sky. At radar wavelengths ($\lambda$ often on the order of several centimeters), most atmospheric targets behave as Rayleigh scatterers. Therefore, radars ysing shorter wavelengths will see increased scattering from precipitaion.
 
+For scatterers much larger than the wavelength
