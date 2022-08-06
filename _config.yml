@@ -19,30 +19,81 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Sun J. P. 's homepage
-email: sunjianping@zju.edu.cn
+author:
+  name: sunjp704
+  email: sunjianping@zju.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Wind engineering, CFD, physics engine and coding.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sunjp704.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Shenlou63709980
-github_username:  sunjp704
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "https://sunjp704.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: Shenlou63709980
+# github_username:  sunjp704
 
-lsi: false
-safe: true
+# lsi: false
+# safe: true
 # source: [your repo's top level directory]
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    # twitter: jekyllrb
+    github:  sunjp704
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
 # Build settings
 theme: minima
+
 plugins:
-  - jekyll-feed
+ - jekyll-feed
+ - jekyll-seo-tag
+
+markdown: kramdown
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
