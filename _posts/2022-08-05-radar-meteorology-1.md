@@ -24,15 +24,15 @@ What does a radar do?
 
 ### The radio wave and microwave atmospheric window
 
-The transparency of the atmosphere to EM waves depends critically on the wavelength of those waves.
-    `atmospheric window: the limited region of the EM spectrum towhich the atmosphere is trasparent.`
+The transparency of the atmosphere to EM waves depends critically on the wavelength of those waves.  
+`atmospheric window: the limited region of the EM spectrum towhich the atmosphere is trasparent.`
 ![fig1](/pictures/atmospheric_window.PNG "atomspheric window")
 
 ### Scattering regimes
 
-Scatter can be defined as the re-radiation of the incident radiation of particles or objects called scatterers. Prtial reflections occur when EM waves propagating in the medium with refractive index $ n_1 $ meet another medium with refractive index $ n_2 $.
+Scatter can be defined as the re-radiation of the incident radiation of particles or objects called scatterers. Prtial reflections occur when EM waves propagating in the medium with refractive index $n_1$ meet another medium with refractive index $n_2$.
 
-In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~$ 10^{-10} $m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
+In the atmosphere, scatterers vary considerably in size, ranging from gas molecules (~$10^{-10}$m) to layers of air at different temperatures and humidity (several meters). Scatterers will interact differently with radiation depending on their sizes and the wavelength of the incoming EM waves. 
 
 #### Objects with sharp boundaries
 
