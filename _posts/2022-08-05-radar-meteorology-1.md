@@ -56,7 +56,7 @@ $$
 \gamma=\frac{\pi D}{\lambda}
 $$
 
-For $|n(\lambda)\gamma|<1$ (scatterers much smaller than the wavelength, Rayleigh scattering),
+For $\vert n(\lambda)\gamma\vert<1$ (scatterers much smaller than the wavelength, Rayleigh scattering),
 
 $$
 \xi_\mathrm{s}(n(\lambda),D,\lambda)=\frac{8}{3}\gamma^4\vert\frac{n^2(\lambda)-1}{n^2(\lambda)+2}\vert^2
