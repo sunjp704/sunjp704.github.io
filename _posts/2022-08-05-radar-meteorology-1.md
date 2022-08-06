@@ -26,7 +26,7 @@ What does a radar do?
 
 The transparency of the atmosphere to EM waves depends critically on the wavelength of those waves.
     `atmospheric window: the limited region of the EM spectrum towhich the atmosphere is trasparent.`
-![fig1](../pictures/atmospheric_window.PNG "atomspheric window")
+![fig1](/pictures/atmospheric_window.PNG "atomspheric window")
 
 ### Scattering regimes
 
@@ -36,7 +36,9 @@ In the atmosphere, scatterers vary considerably in size, ranging from gas molecu
 
 #### Objects with sharp boundaries
 
-Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy *E* at wavelength $\lambda$ due to sccatering is given by $$\frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s$$
+Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy *E* at wavelength $\lambda$ due to sccatering is given by
+$$\frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s$$
 
-For spherical scatterers of diameter D in a medium with unit refractive index, the volume scattering coefficient is given by $$\beta=\frac{\pi}{4}\int_{0}^{\infty}N(D)D^2\zeta_\mathrm{s}(n(\lambda),D,\lambda)\mathrm{d}D$$
+For spherical scatterers of diameter D in a medium with unit refractive index, the volume scattering coefficient is given by
+$$\beta=\frac{\pi}{4}\int_{0}^{\infty}N(D)D^2\zeta_\mathrm{s}(n(\lambda),D,\lambda)\mathrm{d}D$$
 where $N(D)$ is the number concentration of particles with diameter $D$ and $\zeta_\mathrm{s}(n(\lambda),D,\lambda)$ is the scattering efficiency factor , with $n(\lambda)$ being the complex refractive index of the scatterer.
