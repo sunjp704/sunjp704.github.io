@@ -36,7 +36,7 @@ In the atmosphere, scatterers vary considerably in size, ranging from gas molecu
 
 #### Objects with sharp boundaries
 
-Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy *E* at wavelength $\lambda$ due to sccatering is given by
+Volume scattering coefficient $\beta$. In the absence of attenuation, the change in flux of energy $E$ at wavelength $\lambda$ due to sccatering is given by
 
 $$
 \frac{\mathrm{d}E(\lambda)}{E(\lambda)}=-\beta\mathrm{d}s
@@ -56,7 +56,7 @@ $$
 \gamma=\frac{\pi D}{\lambda}
 $$
 
-For $$\vert n(\lambda)\gamma\vert<1$$ (scatterers much smaller than the wavelength, Rayleigh scattering),
+For $\vert n(\lambda)\gamma\vert<1$ (scatterers much smaller than the wavelength, Rayleigh scattering),
 
 $$
 \xi_\mathrm{s}(n(\lambda),D,\lambda)=\frac{8}{3}\gamma^4\vert\frac{n^2(\lambda)-1}{n^2(\lambda)+2}\vert^2
@@ -68,7 +68,7 @@ $$
 \beta=\frac{2\pi^5}{3\lambda^4}\vert\frac{n^2(\lambda)-1}{n^2(\lambda)+2}\vert^2\int_{0}^{\infty}N(D)D^6\mathrm{d}D
 $$
 
-Barring major changes in $$n(\lambda)$$, 
+Barring major changes in $n(\lambda)$, 
 
 $$
 \beta\propto\frac{D^6}{\lambda^4}
