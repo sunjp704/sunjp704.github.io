@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sun J. P. 's homepage
+title: Sun J. P. 's HHHhomepage
 author:
   name: sunjp704
   email: sunjianping@zju.edu.cn
@@ -89,11 +89,11 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
 
-markdown: kramdown
+markdown: GFM
 
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
