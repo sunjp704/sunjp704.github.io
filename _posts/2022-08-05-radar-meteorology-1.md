@@ -25,7 +25,7 @@ What does a radar do?
 
 The transparency of the atmosphere to EM waves depends critically on the wavelength of those waves.  
 `atmospheric window: the limited region of the EM spectrum towhich the atmosphere is trasparent.`
-![fig1](/pictures/atmospheric_window.PNG "atomspheric window")
+![fig1](/assets/images/atmospheric_window.PNG "atomspheric window")
 
 ### Scattering regimes
 
