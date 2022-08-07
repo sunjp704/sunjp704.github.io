@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sun J. P. 's HHHhomepage
+title: Sun J. P. 's homepage
 author:
-  name: sunjp704
+  name: Sun Jianping
   email: sunjianping@zju.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Wind engineering, CFD, physics engine and coding.
