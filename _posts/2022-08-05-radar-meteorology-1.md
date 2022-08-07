@@ -76,4 +76,6 @@ $$
 
 >At visible wavelengths (blue),air molecules are much smaller than $\lambda$. Hence these molecules scatter shorter wavelengths (blue) much better than longer ones (red), leading to the blue sky. At radar wavelengths ($\lambda$ often on the order of several centimeters), most atmospheric targets behave as Rayleigh scatterers. Therefore, radars ysing shorter wavelengths will see increased scattering from precipitaion.
 
-For scatterers much larger than the wavelength
+For scatterers much larger than the wavelength, $\xi_\mathrm{s}(n(\lambda),D,\lambda)$ depends only on the refractive index $n(\lambda)$, $\beta\propto\mathrm{cross-section\ area}$, resulting in white clouds (optical or nonselective region)
+
+Between the two regimes is the Mie or the resonace region.
