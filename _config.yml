@@ -92,7 +92,6 @@ plugins:
 markdown: kramdown
 
 kramdown:
-  input: GFM
   math_engine: mathjax
   syntax_highlighter: rouge
 
