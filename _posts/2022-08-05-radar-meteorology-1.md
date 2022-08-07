@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Radar Meteorology 1"
-date: 2022-08-05 21:17:00 +8000
 categories: radar meteorology
 ---
 

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Jekyll tips"
-date: 2022-08-07 13:14:00 +8000
 categories: Jekyll MathJax
 ---
 
