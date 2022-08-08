@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jekyll Tips"
-categories: Jekyll MathJax
+tags: Jekyll MathJax
 ---
 
 # inline math
