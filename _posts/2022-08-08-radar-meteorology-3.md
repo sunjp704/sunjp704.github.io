@@ -13,5 +13,22 @@ Notes of [Fabry, F. (2018). *Radar meteorology: principles and practice*. Cambri
 
 ## Precipitation process: a quick overview
 
+## The vertical structure of rain echoes
 
+## Radar signatures of widespread rain
 
+### Precipitation trails and their movement
+
+### The bright band signature of melting snow
+
+## Frozen precipitation
+
+## Non-precipitation weather targets
+
+### Clouds
+
+### Refractive index gradients in air
+
+## Non-weather targets
+
+## An echo identification approach
