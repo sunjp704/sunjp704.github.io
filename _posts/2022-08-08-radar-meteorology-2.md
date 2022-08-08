@@ -7,7 +7,7 @@ Notes of [Fabry, F. (2018). *Radar meteorology: principles and practice*. Cambri
 
 ## The radar equation
 
-Most precipitation targets are much smaller than the usual radar wavelength, that is, Rayleigh scatterers. For such targets, we define $Z$ as the radar reflectivity factor per unit volume:
+Most precipitation targets are much smaller than the usual radar wavelength (Rayleigh scatterers). For such targets, we define $Z$ as the radar reflectivity factor per unit volume:
 
 $$
 Z=\int _0^{\infty}N(D)D^6\mathrm{d}D
@@ -15,7 +15,7 @@ $$
 
 Note that $Z$ is usually expressed in nonstandard units of $\mathrm{mm^6}/\mathrm{m^3}$
 
-A convenient version for radars with parabolic antennas is
+A convenient version of radar equation for radars with parabolic antennas is
 
 $$
 P_\mathrm{r}=\frac{1.22^2\times 0.55^2\times 10^{-18}\pi^7c}{1024\ln2}\frac{P_\mathrm{t}\tau D_\mathrm{a}^2}{\lambda^4}\frac{T^2(0,r)}{r^2}\Vert K\Vert^2Z
@@ -61,7 +61,7 @@ $$
 rainfall rate:
 
 $$
-Z=\int _0^{\infty}N(D)D^3w_\mathrm{r}(D)\mathrm{d}D
+R=\int _0^{\infty}N(D)D^3w_\mathrm{r}(D)\mathrm{d}D
 $$
 
 $w_\mathrm{r}(D)$: fall speed of a raindrop of diameter $D$.
