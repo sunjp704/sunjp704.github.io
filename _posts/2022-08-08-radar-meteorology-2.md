@@ -66,7 +66,7 @@ $$
 
 $w_\mathrm{r}(D)$: fall speed of a raindrop of diameter $D$.
 
-There are no mathematical functions linking Z and R. On average, however, DSD vary systematically with reflectivity and precipitation intensity. Z-R relationships are derived based on that fact:
+There are no mathematical functions linking $Z$ and $R$. On average, however, DSD varies systematically with reflectivity and precipitation intensity. $Z$-$R$ relationships are derived based on that fact:
 
 $$
 \begin{aligned}
@@ -76,10 +76,10 @@ $$
 \end{aligned}
 $$
 
-Z-R relationships power laws of the form $Z=aR^b$ of which the coefficients a and b depend on the dynamics and microphysics processes controlling precipitation formation. Hence, it varies from one region to another.
+$Z$-$R$ relationships power laws of the form $Z=aR^b$ of which the coefficients $a$ and $b$ depend on the dynamics and microphysics processes controlling precipitation formation. Hence, it varies from one region to another.
 
 ## Radar products
 
 1. Vertical cross sections
-2. Vertically integrated liquid(VIL)
+2. Vertically integrated liquid (VIL)
 3. ...
