@@ -50,6 +50,16 @@ $$
 \mathrm{dB}Z=10\log _{10}Z
 $$
 
+|Targets type|$Z_\mathrm{e}$($\mathrm{dB}Z$)|
+|:----------:|:------------:|
+|Light drizzle; insects                                                     |0|
+|Moderate drizzle; a few raindrops; light snow; migrating birds             |10|
+|Light rain or moderate snow; typical of widespread precipitation (1 mm/h)  |25|
+|moderate rain, strong for widespread precipitation (5 mm/h)                |35|
+|Heavy rain from a convective shower (20 mm/h)                              |45|
+|Hail or very heavy rain, peak of thunderstorms                             |55|
+|Moderate to severe hail                                                    |>60|
+
 ## Reflectivity factor and rain rate
 
 reflectivity factor:
