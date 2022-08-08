@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll tips"
+title: "Jekyll Tips"
 categories: Jekyll MathJax
 ---
 
