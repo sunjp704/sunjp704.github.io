@@ -95,3 +95,29 @@ $$
 $$
 
 for the Rayleigh and optical regimes, respectively.
+
+#### Fuzzy refractive index transitions
+
+### Types of radars
+
+### Naming conventions of radar bands
+
+## Propagation in the atmosphere
+
+### Refraction
+
+### Attenuation
+
+## Basic radar measurement
+
+### Timing, range, and radial velocity
+
+### Radar returns from a distributed target
+
+## Weather surveillance
+
+**PPI**: plan position indicators. The antenna scans in azimuth at a fixed elevation.
+
+**RHI**: range-height indicators. The antenna scans in elevation at a fixed azimuth.
+
+**HTI**: When the elevation is the zenith or nadir, range-height indicators are also called height-time indicators.
