@@ -121,3 +121,5 @@ for the Rayleigh and optical regimes, respectively.
 **RHI**: range-height indicators. The antenna scans in elevation at a fixed azimuth.
 
 **HTI**: When the elevation is the zenith or nadir, range-height indicators are also called height-time indicators.
+
+![fig2](/assets/images/PPI_RHI_HTI.PNG "PPI_RHI_HTI")
