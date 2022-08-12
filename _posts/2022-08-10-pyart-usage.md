@@ -23,3 +23,8 @@ Pyart didn't implement CINRAD data format, so we need a decoder for CINRAD bin f
 > [PyCINRAD](https://github.com/CyanideCN/PyCINRAD)  
 > [PyRadar](https://github.com/uniquezhiyuan/PyRadar)  
 > [CINRAD数据处理](https://www.jianshu.com/p/ea4baf0cb39b)
+
+According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), data format of CINRAD bin file is shown below:
+
+|byte|double-byte|data size|remarks|
+|:-:|:-:|:-:|:-:|
