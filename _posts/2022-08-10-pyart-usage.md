@@ -28,3 +28,11 @@ According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), data
 
 |byte|double-byte|data size|remarks|
 |:-:|:-:|:-:|:-:|
+
+The data format of SA/SB radar bin file can be written in the form of numpy.dtype as:
+
+```python
+import numpy as np
+
+
+```
