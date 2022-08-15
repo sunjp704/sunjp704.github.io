@@ -66,7 +66,7 @@ data = [
     ('reserved1','19B'),
     ('refractivity','460u1'),
     ('doppler_velocity','920u1'),
-    ('spectrum_width','920u2'),
+    ('spectrum_width','920u1'),
     ('reserved2','14B')
 ]
 ```
