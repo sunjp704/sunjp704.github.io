@@ -24,15 +24,49 @@ Pyart didn't implement CINRAD data format, so we need a decoder for CINRAD bin f
 > [PyRadar](https://github.com/uniquezhiyuan/PyRadar)  
 > [CINRAD数据处理](https://www.jianshu.com/p/ea4baf0cb39b)
 
-According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), data format of CINRAD bin file is shown below:
-
-|byte|double-byte|data size|remarks|
-|:-:|:-:|:-:|:-:|
-
-The data format of SA/SB radar bin file can be written in the form of numpy.dtype as:
+According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), the data format of SA/SB radar bin file can be written in the form of numpy.dtype as:
 
 ```python
-import numpy as np
+header = [
+    ('reserved1', '14B'),
+    ('radar', 'i2'),
+    ('reserved2', '12B')
+]
 
+description = [
+    ('time', 'u4'),
+    ('date', 'u2'),
+    ('unambiguous_range', 'u2'),
+    ('azimuth','u2'),
+    ('radial_index','u2'),
+    ('radial_status','u2'),
+    ('elevation','u2'),
+    ('num_elevation','u2'),
+    ('start_refractivity_range_bin','u2'),
+    ('start_doppler_range_bin','u2'),
+    ('step_refractivity_range_bin','u2'),
+    ('step_doppler_range_bin','u2'),
+    ('num_refractivity_range_bin','u2'),
+    ('num_doppler_range_bin','u2'),
+    ('sector','u2'),
+    ('adjustment','u4'),
+    ('refractivity_pointer','u2'),
+    ('doppler_pointer','u2'),
+    ('spectrum_width_pointer','u2'),
+    ('resolution_doppler','u2'),
+    ('volume_cover_pattern','u2'),
+    ('reserved3','4B'),
+    ('bk_refractivity_pointer','u2'),
+    ('bk_doppler_pointer','u2'),
+    ('bk_spectrum_width_pointer','u2'),
+    ('nyquist_velocity','u2')
+]
 
+data = [
+    ('reserved1','19B'),
+    ('refractivity','460u1'),
+    ('doppler_velocity','920u1'),
+    ('spectrum_width','920u2'),
+    ('reserved2','14B')
+]
 ```
