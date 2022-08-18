@@ -24,7 +24,7 @@ Pyart didn't implement CINRAD data format, so we need a decoder for CINRAD bin f
 > [PyRadar](https://github.com/uniquezhiyuan/PyRadar)  
 > [CINRAD数据处理](https://www.jianshu.com/p/ea4baf0cb39b)
 
-According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), the data format of SA/SB radar bin file can be written in the form of numpy.dtype as:
+According to 薛志远 ([uniquezhiyuan](https://github.com/uniquezhiyuan)), SA/SB radar bin file is composed of several 2732-bytes-sized data units and the format of each unit can be written in the form of numpy.dtype as:
 
 ```python
 header = [
