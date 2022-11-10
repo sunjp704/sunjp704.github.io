@@ -4,6 +4,6 @@ title: "wrf output variables"
 tags: wrf
 ---
 
-## Global Attributes
+## wrf.getvar()
 
-TITLE
+[variables](https://wrf-python.readthedocs.io/en/latest/user_api/generated/wrf.getvar.html#wrf-getvar)
