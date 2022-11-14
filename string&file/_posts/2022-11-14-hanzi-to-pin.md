@@ -19,6 +19,6 @@ def han2pin(han:str):
 
 --------------------------------
 >>> print(han2pin('汉字'))
-Haha
+Hanzi
 
 ```
