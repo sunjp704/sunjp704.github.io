@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "hanzi to pinyin"
+title: "count entries in a list"
 tags: python
 ---
 
